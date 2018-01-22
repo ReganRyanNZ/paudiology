@@ -22,7 +22,7 @@ class Home extends React.Component {
         <div className="edit-container">
 
         </div>
-        <div id="#display-container" className="display-container" onClick={document.getElementById("display-container").select}>
+        <div id="#display-container" className="display-container" >
           <ul>
             <li>{this.state.first}</li>
             <ul>
